@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Ten NV: "
+            android:layout_weight=".4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/txtten"
+            android:textSize="30dp"
+            android:layout_weight=".7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Luong CB: "
+            android:layout_weight=".4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/txtluong"
+            android:textSize="30dp"
+            android:layout_weight=".7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="So ngay cong: "
+            android:layout_weight=".4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <EditText
+            android:id="@+id/txtngaycong"
+            android:textSize="30dp"
+            android:layout_weight=".7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:layout_margin="8dp"
+            android:id="@+id/btnLuu"
+            android:layout_weight=".4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Luu"/>
+
+        <Button
+            android:layout_margin="8dp"
+            android:id="@+id/btnHuy"
+            android:layout_weight=".4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Huy"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
